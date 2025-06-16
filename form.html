@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Top 5 Movies Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        fieldset {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            padding: 15px;
+        }
+
+        legend {
+            font-weight: bold;
+            color: #555;
+        }
+
+        label {
+            display: inline-block;
+            width: 100px;
+            margin-top: 10px;
+        }
+
+        input[type="text"],
+        input[type="url"] {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            display: block;
+            margin: 0 auto;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Enter Your Top 5 Movies</h1>
+
+    <form action="submit.html" method="post">
+        <fieldset>
+            <legend>Movie 1</legend>
+            <label for="movie1">Title:</label>
+            <input type="text" id="movie1" name="movie1" required>
+            <label for="image1">Image URL:</label>
+            <input type="url" id="image1" name="image1" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Movie 2</legend>
+            <label for="movie2">Title:</label>
+            <input type="text" id="movie2" name="movie2" required>
+            <label for="image2">Image URL:</label>
+            <input type="url" id="image2" name="image2" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Movie 3</legend>
+            <label for="movie3">Title:</label>
+            <input type="text" id="movie3" name="movie3" required>
+            <label for="image3">Image URL:</label>
+            <input type="url" id="image3" name="image3" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Movie 4</legend>
+            <label for="movie4">Title:</label>
+            <input type="text" id="movie4" name="movie4" required>
+            <label for="image4">Image URL:</label>
+            <input type="url" id="image4" name="image4" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Movie 5</legend>
+            <label for="movie5">Title:</label>
+            <input type="text" id="movie5" name="movie5" required>
+            <label for="image5">Image URL:</label>
+            <input type="url" id="image5" name="image5" required>
+        </fieldset>
+
+        <input type="submit" value="Submit Top 5 Movies">
+    </form>
+</body>
+</html>
